@@ -13,6 +13,8 @@
 		A86FBC012850AD5C004BB71F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86FBBFF2850AD5C004BB71F /* Main.storyboard */; };
 		A86FBC032850AD5D004BB71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86FBC022850AD5D004BB71F /* Assets.xcassets */; };
 		A86FBC062850AD5D004BB71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86FBC042850AD5D004BB71F /* LaunchScreen.storyboard */; };
+		A86FBC0E2850AE48004BB71F /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86FBC0D2850AE48004BB71F /* APICaller.swift */; };
+		A86FBC102850BB74004BB71F /* NewsTalbeVIewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86FBC0F2850BB74004BB71F /* NewsTalbeVIewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A86FBC022850AD5D004BB71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A86FBC052850AD5D004BB71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A86FBC072850AD5D004BB71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A86FBC0D2850AE48004BB71F /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		A86FBC0F2850BB74004BB71F /* NewsTalbeVIewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTalbeVIewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A86FBC022850AD5D004BB71F /* Assets.xcassets */,
 				A86FBC042850AD5D004BB71F /* LaunchScreen.storyboard */,
 				A86FBC072850AD5D004BB71F /* Info.plist */,
+				A86FBC0D2850AE48004BB71F /* APICaller.swift */,
+				A86FBC0F2850BB74004BB71F /* NewsTalbeVIewCell.swift */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A86FBBFE2850AD5C004BB71F /* ViewController.swift in Sources */,
+				A86FBC102850BB74004BB71F /* NewsTalbeVIewCell.swift in Sources */,
 				A86FBBFA2850AD5C004BB71F /* AppDelegate.swift in Sources */,
 				A86FBBFC2850AD5C004BB71F /* SceneDelegate.swift in Sources */,
+				A86FBC0E2850AE48004BB71F /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
